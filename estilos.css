@@ -60,4 +60,9 @@ footer a {
   text-decoration: none;
   font-size: 40px;
   letter-spacing: 15px;
+}
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=estilos.css.map */
