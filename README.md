@@ -18,3 +18,5 @@ Describi la pagina, osea de que es y como funciona estudio remota.
 Aproveche la jerarquizacion de los h2 
 
 Y la parte del FaQ fue donde más aproveche de usar texto y palabras más utilizadas para la página.
+
+*** Por cierto, en la visualizacion del github a veces no se visualizaba la version más reciente, cuando actualizaba el cache se arreglo ***
