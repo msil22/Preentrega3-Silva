@@ -52,22 +52,6 @@ span {
     }
 }
 
-footer {
-    text-align: center;
-    font-size: 30px;
-    background-color: $color3;
-    color: $color1;
-    padding: 20px;
-}
-footer p {
-    font-size: 20px;
-}
-footer a {
-    color: $color1;
-    text-decoration: none;
-    font-size: 40px;
-    letter-spacing: 15px;
-}
 
 .container {
     margin-top: 30px;
@@ -124,3 +108,22 @@ footer a {
 .container{
     background-color: transparent;
 }
+
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    background-color: $color3;
+    color: $color1;
+    padding: 20px;
+}
+footer p {
+    font-size: 20px;
+}
+footer a {
+    color: $color1;
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: 15px;
+}
+

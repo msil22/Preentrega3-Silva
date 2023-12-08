@@ -43,25 +43,6 @@ span {
   text-align: left;
 }
 
-footer {
-  text-align: center;
-  font-size: 30px;
-  background-color: #000;
-  color: #fff;
-  padding: 20px;
-}
-
-footer p {
-  font-size: 20px;
-}
-
-footer a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 40px;
-  letter-spacing: 15px;
-}
-
 .container {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -114,4 +95,23 @@ footer a {
 
 .container {
   background-color: transparent;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 15px;
 }/*# sourceMappingURL=estilos.css.map */
