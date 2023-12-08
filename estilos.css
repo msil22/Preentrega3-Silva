@@ -1,1 +1,63 @@
-/*# sourceMappingURL=estilos.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  max-height: 100px;
+}
+
+span {
+  color: #fff;
+}
+
+.custom-bg-color {
+  background-color: #232323;
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.estudio {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Multimedia/camara1.jpeg);
+}
+.estudio .camara {
+  max-width: 60%;
+  padding: 20px;
+  text-align: right;
+  color: #fff;
+}
+.estudio h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: rgb(18, 54, 197);
+  display: flex;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 15px;
+}/*# sourceMappingURL=estilos.css.map */
