@@ -71,8 +71,8 @@ footer a {
   background-color: #989898;
   height: auto;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(8, 200px);
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(3, 200px);
   padding: 15px;
   grid-gap: 15px;
 }
@@ -85,7 +85,8 @@ footer a {
   background-image: url(./Multimedia/camara1.jpeg);
 }
 .collage .item2 {
-  background-image: url(./Multimedia/camara2.jpeg);
+  background-image: url(./Multimedia/camara1\(vertical\).jpeg);
+  grid-row: span 2;
 }
 .collage .item3 {
   background-image: url(./Multimedia/camara3.jpeg);
@@ -106,55 +107,6 @@ footer a {
   background-image: url(./Multimedia/office-932926_1280.jpg);
 }
 
-@media only screen and (min-width: 480px) {
-  .galeria {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, 200px);
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .galeria {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .item1 {
-    grid-column: 1/3;
-    grid-row: 1/2;
-  }
-  .item2 {
-    grid-column: 3/4;
-    grid-row: 1/2;
-  }
-  .item3 {
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
-  .item4 {
-    grid-column: 2/4;
-    grid-row: 2/3;
-  }
-  .item5 {
-    grid-column: 1/3;
-    grid-row: 3/4;
-  }
-  .item6 {
-    grid-column: 3/4;
-    grid-row: 3/4;
-  }
-  .item7 {
-    grid-column: 1/2;
-    grid-row: 4/5;
-  }
-  .item8 {
-    grid-column: 2/4;
-    grid-row: 4/5;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .galeria {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 200px 200px;
-  }
-}
 .formulario {
   background-color: #989898;
   color: #fff;
