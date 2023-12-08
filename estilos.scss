@@ -73,3 +73,54 @@ footer a {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.collage{
+    background-color: $color5;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,200px);
+    padding: 15px;
+    grid-gap: 15px;
+    .item{
+        border: 2px solid $color3;
+        background-size: cover;
+        background-position: center;
+    }
+    .item1{
+        background-image: url(/Multimedia/camara1.jpeg);
+    }
+    .item2{
+        background-image: url(/Multimedia/camara2.jpeg);
+    }
+    .item3{
+        background-image: url(/Multimedia/camara3.jpeg);
+    }
+    .item4{
+        background-image: url(/Multimedia/camara4.jpeg);
+    }
+    .item5{
+        background-image: url(/Multimedia/camara5.jpeg);
+    }
+    .item6{
+        background-image: url(/Multimedia/camara6.jpeg);
+    }
+    .item7{
+        background-image: url(/Multimedia/office-820390_1280.jpg);
+    }
+    .item8{
+        background-image: url(/Multimedia/office-932926_1280.jpg);
+    }
+}
+
+
+
+
+.formulario{
+    background-color: $color5;
+    color: $color1;
+}
+
+.container{
+    background-color: transparent;
+}

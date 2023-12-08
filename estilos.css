@@ -65,4 +65,52 @@ footer a {
 .container {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.collage {
+  background-color: #989898;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 200px);
+  padding: 15px;
+  grid-gap: 15px;
+}
+.collage .item {
+  border: 2px solid #000;
+  background-size: cover;
+  background-position: center;
+}
+.collage .item1 {
+  background-image: url(/Multimedia/camara1.jpeg);
+}
+.collage .item2 {
+  background-image: url(/Multimedia/camara2.jpeg);
+}
+.collage .item3 {
+  background-image: url(/Multimedia/camara3.jpeg);
+}
+.collage .item4 {
+  background-image: url(/Multimedia/camara4.jpeg);
+}
+.collage .item5 {
+  background-image: url(/Multimedia/camara5.jpeg);
+}
+.collage .item6 {
+  background-image: url(/Multimedia/camara6.jpeg);
+}
+.collage .item7 {
+  background-image: url(/Multimedia/office-820390_1280.jpg);
+}
+.collage .item8 {
+  background-image: url(/Multimedia/office-932926_1280.jpg);
+}
+
+.formulario {
+  background-color: #989898;
+  color: #fff;
+}
+
+.container {
+  background-color: transparent;
 }/*# sourceMappingURL=estilos.css.map */
