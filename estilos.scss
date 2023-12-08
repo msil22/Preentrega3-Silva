@@ -6,7 +6,8 @@ $color3: #000;
 $color4: #c21b1b;
 $color5: #989898;
 $color6: rgb(18, 54, 197);
-
+$color7: green;
+$color8: red;
 
 * {
     margin: 0;
@@ -22,6 +23,28 @@ span {
     color: $color1;
 }
 
+
+ul {
+    list-style: none;
+    padding: 0;
+    li{
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-bottom: 10px; 
+    }
+}
+
+.green{
+    color: $color7;
+}
+
+.red{
+    color: $color8;
+}
+
+
+
 .custom-bg-color {
     background-color: $color2;
 }
@@ -31,6 +54,17 @@ span {
     transition: transform 0.3s ease-in-out;
 }
 
+
+.ticket::before {
+    content: '\2713'; 
+    margin-right: 8px; 
+}
+
+.cross::before {
+    content: '\2717'; 
+    margin-right: 8px;
+}
+
 .estudio{
     display: flex;
     align-items: center;
@@ -38,9 +72,9 @@ span {
     height: 100vh;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Multimedia/camara1.jpeg);
     .camara{
-        max-width: 60%;
+        max-width: 40%;
         padding: 20px;
-        text-align: right;
+        text-align: left;
         color: $color1;
     }
     h2{

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Raleway&display=swap");
 * {
   margin: 0;
@@ -13,6 +14,25 @@ span {
   color: #fff;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
 .custom-bg-color {
   background-color: #232323;
 }
@@ -20,6 +40,16 @@ span {
 .zoom-on-hover:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out;
+}
+
+.ticket::before {
+  content: "✓";
+  margin-right: 8px;
+}
+
+.cross::before {
+  content: "✗";
+  margin-right: 8px;
 }
 
 .estudio {
@@ -30,9 +60,9 @@ span {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Multimedia/camara1.jpeg);
 }
 .estudio .camara {
-  max-width: 60%;
+  max-width: 40%;
   padding: 20px;
-  text-align: right;
+  text-align: left;
   color: #fff;
 }
 .estudio h2 {
